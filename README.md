@@ -61,9 +61,7 @@ cd project
 
 ### 2. Set up environment variables
 
-```bash
-cp .env.example .env
-```
+Make a copy of `.env.example` and name it `.env`.
 
 Edit `.env` if you want to change default credentials.
 
