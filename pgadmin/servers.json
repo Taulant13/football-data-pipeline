@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Football DB",
+      "Group": "Servers",
+      "Host": "postgres",
+      "Port": 5432,
+      "MaintenanceDB": "football_db",
+      "Username": "football",
+      "SSLMode": "prefer"
+    }
+  }
+}
