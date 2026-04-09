@@ -139,9 +139,8 @@ project/
 ├── airflow/
 │   ├── Dockerfile                  # Custom Airflow image with dependencies
 │   ├── requirements.txt
-│   ├── dags/
-│   │   └── football_pipeline_dag.py  # Airflow DAG definition
-│   └── logs/                       # Airflow logs (gitignored)
+│   └── dags/
+│       └── football_pipeline_dag.py  # Airflow DAG definition
 └── pgadmin/
     └── servers.json                # Auto-registers PostgreSQL in pgAdmin
 ```

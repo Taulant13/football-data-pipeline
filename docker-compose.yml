@@ -78,7 +78,7 @@ services:
       SEASONS: ${SEASONS}
     volumes:
       - ./airflow/dags:/opt/airflow/dags
-      - ./airflow/logs:/opt/airflow/logs
+      - airflow_logs:/opt/airflow/logs
     depends_on:
       postgres:
         condition: service_healthy
@@ -125,6 +125,7 @@ services:
 volumes:
   postgres_data:
   pgadmin_data:
+  airflow_logs:
 
 networks:
   football_net:

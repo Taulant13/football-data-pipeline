@@ -20,9 +20,6 @@ Thumbs.db
 pgadmin_data/
 postgres_data/
 
-# Airflow logs
-airflow/logs/
-
 # Terraform
 *.tfstate
 *.tfstate.backup
