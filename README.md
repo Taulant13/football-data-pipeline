@@ -41,7 +41,7 @@ Football-Data.co.uk (CSV)
 - **Source:** Football-Data.co.uk
 - **Format:** CSV files, one per league per season
 - **Leagues:** Premier League (E0), Bundesliga (D1), La Liga (SP1), Serie A (I1), Ligue 1 (F1)
-- **Seasons:** 2023/24, 2024/25 (configurable)
+- **Seasons:** 2024/25, 2025/26 (configurable)
 - **Key fields:** Match date, teams, goals (FT/HT), shots, shots on target, corners, fouls, yellow/red cards
 
 ## Prerequisites
